@@ -26,7 +26,7 @@ Add this to your `Podfile`:
 ```ruby
 pod "RazorpayAdsSdk",
     :git => "https://github.com/razorpayads/ios-sdk.git",
-    :tag => "1.4.0"
+    :tag => "1.0.0"
 ```
 
 Then run:
@@ -82,4 +82,5 @@ extension ViewController: MediationAdDelegate {
 }
 ```
 
-The binary package version published from this repo is `1.4.0`.
+The repo release version published from this repo is `1.0.0`.
+The bundled binary currently reports internal framework version `1.4.0`.
