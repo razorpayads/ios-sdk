@@ -12659,8 +12659,8 @@
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/APP_CONSTANT.swift",
       "kind": "StringLiteral",
       "offset": 572,
-      "length": 152,
-      "value": "\"https:\/\/adreq.razorpay.com\/v1\/rapi?ifa=f4c012b3-eef9-4f35-9208-110f35a63d1c&bundle=com.razorpay.msdk&placement_id=%@&lang=te&adslot_type=banner&nads=1\""
+      "length": 155,
+      "value": "\"https:\/\/adreq.razorpayads.com\/v1\/rapi?ifa=f4c012b3-eef9-4f35-9208-110f35a63d1c&bundle=com.razorpay.msdk&placement_id=%@&lang=te&adslot_type=banner&nads=1\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/Helper.swift",
