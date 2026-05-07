@@ -706,6 +706,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "RazorpayAdType",
         "printedName": "RazorpayAdType",
@@ -1729,6 +1739,16 @@
         "printedName": "zlib",
         "declKind": "Import",
         "moduleName": "RazorpayAdsSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -7768,6 +7788,152 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
+                "printedName": "[Swift.String : [Swift.String]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveD5Width0pD6Height0P4Type23yieldGroupBidPriceRangeACSS_So06UIViewI0CSgSSSgSDySSSaySSGGSiSgAr2Otcfc",
+            "mangledName": "$s14RazorpayAdsSdk22AdRequestConfigurationV9placement14viewController19publisherProvidedId21customTargetingValues08adaptiveD5Width0pD6Height0P4Type23yieldGroupBidPriceRangeACSS_So06UIViewI0CSgSSSgSDySSSaySSGGSiSgAr2Otcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placement:viewController:publisherProvidedId:customTargetingValues:adaptiveAdWidth:adaptiveAdHeight:adaptiveType:yieldGroupBidPriceRange:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdRequestConfiguration",
+                "printedName": "RazorpayAdsSdk.AdRequestConfiguration",
+                "usr": "s:14RazorpayAdsSdk22AdRequestConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
                 "printedName": "[Swift.String : Swift.String]",
                 "children": [
                   {
@@ -7783,7 +7949,6 @@
                     "usr": "s:SS"
                   }
                 ],
-                "hasDefaultArg": true,
                 "usr": "s:SD"
               },
               {
@@ -8138,6 +8303,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RazorpayAdsSdk"
       },
       {
         "kind": "Import",
@@ -11307,168 +11489,175 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 1852,
+      "length": 14,
+      "value": "\"AD_TARGETING\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 3304,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3305,
+      "offset": 3343,
       "length": 9,
       "value": "\"sdkName\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3349,
+      "offset": 3387,
       "length": 13,
       "value": "\"placementId\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
+      "offset": 3427,
       "length": 9,
       "value": "\"sdkName\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3428,
+      "offset": 3466,
       "length": 8,
       "value": "\"sdkKey\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3466,
+      "offset": 3504,
       "length": 8,
       "value": "\"isInit\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3506,
+      "offset": 3544,
       "length": 10,
       "value": "\"adUnitId\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3548,
+      "offset": 3586,
       "length": 10,
       "value": "\"errorLog\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3591,
+      "offset": 3629,
       "length": 11,
       "value": "\"isRequest\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3680,
       "length": 18,
       "value": "\"isRequestAdapter\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3694,
+      "offset": 3732,
       "length": 12,
       "value": "\"isResponse\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3736,
+      "offset": 3774,
       "length": 8,
       "value": "\"adType\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3779,
+      "offset": 3817,
       "length": 13,
       "value": "\"isOnSuccess\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 3862,
       "length": 10,
       "value": "\"isCached\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3865,
+      "offset": 3903,
       "length": 11,
       "value": "\"isClicked\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3912,
+      "offset": 3950,
       "length": 14,
       "value": "\"isImpression\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 3966,
+      "offset": 4004,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 4056,
       "length": 12,
       "value": "\"stackTrace\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4087,
+      "offset": 4125,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4118,
+      "offset": 4156,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4138,
+      "offset": 4176,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4173,
+      "offset": 4211,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4197,
+      "offset": 4235,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4227,
+      "offset": 4265,
       "length": 1,
       "value": "6"
     },
@@ -11900,6 +12089,20 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 3834,
+      "length": 39,
+      "value": "\"https:\/\/adreq.razorpayads.com\/v1\/rapi\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 3913,
+      "length": 10,
+      "value": "\"\/v1\/rapi\""
+    },
+    {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "StringLiteral",
       "offset": 465,
@@ -11909,77 +12112,133 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 717,
-      "length": 425,
+      "offset": 1075,
+      "length": 964,
       "value": "\"var meta = document.createElement('meta');\nmeta.name = 'viewport';\nmeta.content = 'width=\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 1233,
       "length": 1,
-      "value": "\", initial-scale=1.0, shrink-to-fit=yes';\ndocument.head.appendChild(meta);\ndocument.body.style.margin = '0';\ndocument.body.style.padding = '0';\ndocument.body.style.overflow = 'hidden';\""
+      "value": "\", initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=yes';\ndocument.head.appendChild(meta);\ndocument.body.style.margin = '0';\ndocument.body.style.padding = '0';\ndocument.body.style.overflow = 'hidden';\nvar noDragStyle = document.createElement('style');\nnoDragStyle.innerHTML = '*, *::before, *::after { -webkit-touch-callout: none !important; -webkit-user-select: none !important; user-select: none !important; -webkit-user-drag: none !important; } a, img { -webkit-user-drag: none !important; }';\ndocument.head.appendChild(noDragStyle);\ndocument.addEventListener('dragstart', function(e) { e.preventDefault(); }, true);\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1225,
+      "offset": 2122,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1417,
+      "offset": 2314,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1562,
+      "offset": 2459,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1617,
+      "offset": 2514,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2649,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2705,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2759,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3247,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3303,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3357,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2336,
+      "offset": 4460,
       "length": 39,
       "value": "\"data:text\/html;base64,\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2374,
+      "offset": 4498,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2727,
+      "offset": 4851,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2733,
+      "offset": 4857,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5905,
+      "offset": 9607,
       "length": 5,
       "value": "false"
     },
@@ -12049,28 +12308,28 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14609,
+      "offset": 17780,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14631,
+      "offset": 17802,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14656,
+      "offset": 17827,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14762,
+      "offset": 17933,
       "length": 5,
       "value": "false"
     },
@@ -12101,6 +12360,13 @@
       "offset": 1523,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayRequestHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1122,
+      "length": 23,
+      "value": "\"publisher_provided_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/VASTParser.swift",
@@ -12216,283 +12482,318 @@
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2486,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3635,
+      "length": 7,
+      "value": "\"allow\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3660,
+      "length": 7,
+      "value": "\"block\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "FloatLiteral",
-      "offset": 2131,
+      "offset": 5039,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2339,
+      "offset": 5247,
       "length": 8,
       "value": "\"native\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2366,
+      "offset": 5274,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2399,
+      "offset": 5307,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2434,
+      "offset": 5342,
       "length": 10,
       "value": "\"rewarded\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2471,
+      "offset": 5379,
       "length": 16,
       "value": "\"rewarded_inter\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2507,
+      "offset": 5415,
       "length": 9,
       "value": "\"appopen\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2539,
+      "offset": 5447,
       "length": 12,
       "value": "\"unifiedAoi\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2571,
+      "offset": 5479,
       "length": 9,
       "value": "\"unified\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2605,
+      "offset": 5513,
       "length": 14,
       "value": "\"nativeCustom\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2637,
+      "offset": 5545,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2705,
+      "offset": 5613,
       "length": 13,
       "value": "\"INIT_CONFIG\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2742,
+      "offset": 5650,
       "length": 14,
       "value": "\"INIT_REQUEST\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2781,
+      "offset": 5689,
       "length": 15,
       "value": "\"INIT_RESPONSE\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2818,
+      "offset": 5726,
       "length": 12,
       "value": "\"AD_REQUEST\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2860,
+      "offset": 5768,
       "length": 21,
       "value": "\"AD_REQUEST_BACKFILL\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2907,
+      "offset": 5815,
       "length": 16,
       "value": "\"AD_OPPORTUNITY\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2952,
+      "offset": 5860,
       "length": 20,
       "value": "\"AD_REQUEST_ADAPTER\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2995,
+      "offset": 5903,
       "length": 13,
       "value": "\"AD_RESPONSE\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3030,
+      "offset": 5938,
       "length": 12,
       "value": "\"AD_CLICKED\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3067,
+      "offset": 5975,
       "length": 15,
       "value": "\"AD_IMPRESSION\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3103,
+      "offset": 6011,
       "length": 11,
       "value": "\"AD_CACHED\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 6045,
       "length": 14,
       "value": "\"AD_CACHE_HIT\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3175,
+      "offset": 6083,
       "length": 15,
       "value": "\"AD_CACHE_MISS\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3212,
+      "offset": 6120,
       "length": 11,
       "value": "\"EXCEPTION\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 6187,
       "length": 7,
       "value": "\"admob\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3302,
+      "offset": 6210,
       "length": 5,
       "value": "\"gam\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 6236,
       "length": 10,
       "value": "\"razorpay\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3358,
+      "offset": 6266,
       "length": 9,
       "value": "\"liftoff\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3383,
+      "offset": 6291,
       "length": 5,
       "value": "\"jio\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3407,
+      "offset": 6315,
       "length": 8,
       "value": "\"inmobi\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3433,
+      "offset": 6341,
       "length": 7,
       "value": "\"unity\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3473,
+      "offset": 6381,
       "length": 22,
       "value": "\"headerBiddingAdapter\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 6238,
+      "offset": 9146,
       "length": 2,
       "value": "59"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 625,
+      "offset": 814,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 666,
+      "offset": 855,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 710,
+      "offset": 899,
       "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 751,
+      "offset": 940,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 985,
       "length": 64,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 883,
+      "offset": 1072,
       "length": 14,
       "value": "\"RemoteConfig\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 19099,
+      "length": 13,
+      "value": "\"[Targeting]\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/TargetingConfigDatabase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 972,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/view\/MediationNativeAdView.swift",
@@ -12532,21 +12833,21 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4170,
+      "offset": 4172,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4238,
+      "offset": 4240,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 4267,
+      "offset": 4269,
       "length": 3,
       "value": "0.0"
     },
@@ -12581,7 +12882,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Razorpay.swift",
       "kind": "Dictionary",
-      "offset": 2654,
+      "offset": 2658,
       "length": 3,
       "value": "[]"
     },
@@ -12595,37 +12896,93 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 770,
+      "offset": 832,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15999,
+      "offset": 19836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20987,
+      "offset": 24824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21175,
+      "offset": 25012,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 55460,
+      "offset": 59297,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/TargetingEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 85,
+      "value": "\"Targeting Key Invalid , must start with letter\/underscore, alphanumeric, 1-20 chars\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/TargetingEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 95,
+      "value": "\"Targeting Value Invalid , must be alphanumeric, underscores, dashes, dots, spaces, 1-40 chars\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/TargetingEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 25,
+      "value": "\"Targeting Value Blocked\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/TargetingEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 37,
+      "value": "\"Targeting Value Not in Enabled List\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/TargetingEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 33,
+      "value": "\"^[a-zA-Z_][a-zA-Z0-9_]{0,19}$\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/TargetingEvaluator.swift",
+      "kind": "Array",
+      "offset": 796,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/TargetingEvaluator.swift",
+      "kind": "StringLiteral",
+      "offset": 880,
+      "length": 29,
+      "value": "\"^[a-zA-Z0-9_\\-.\\s]{1,40}$\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/TargetingEvaluator.swift",
+      "kind": "Array",
+      "offset": 928,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Utility.swift",
