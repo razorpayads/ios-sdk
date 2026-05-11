@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "RazorpayAdsSdk"
-  s.version           = "1.4.6"
+  s.version           = "1.4.7"
   s.summary           = "Razorpay Ads SDK for iOS applications."
   s.description       = "Razorpay Ads SDK distributed as a vendored XCFramework for iOS."
   s.homepage          = "https://github.com/razorpayads/ios-sdk"

@@ -11783,7 +11783,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/Network.swift",
       "kind": "StringLiteral",
-      "offset": 3567,
+      "offset": 4049,
       "length": 11,
       "value": "\"analytics\""
     },
@@ -12091,14 +12091,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 3834,
+      "offset": 3911,
       "length": 39,
       "value": "\"https:\/\/adreq.razorpayads.com\/v1\/rapi\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 3913,
+      "offset": 3990,
       "length": 10,
       "value": "\"\/v1\/rapi\""
     },
@@ -12364,7 +12364,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayRequestHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 1516,
       "length": 6,
       "value": "\"ppid\""
     },
