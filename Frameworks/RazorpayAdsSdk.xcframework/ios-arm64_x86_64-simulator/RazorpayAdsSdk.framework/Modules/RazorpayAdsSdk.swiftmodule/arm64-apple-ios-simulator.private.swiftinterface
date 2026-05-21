@@ -6,6 +6,7 @@ import AVFoundation
 import AppTrackingTransparency
 import Compression
 import Foundation
+import GoogleMobileAds
 import Network
 @_exported import RazorpayAdsSdk
 import SQLite3
@@ -251,6 +252,17 @@ public protocol MediationAppOpenAd : RazorpayAdsSdk.Ad {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   var eventDelegate: (any RazorpayAdsSdk.MediationAppOpenAdEventDelegate)? { get set }
+  #endif
+}
+public protocol MediationNativeCustomFormatAdGAM {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getMediaContent() -> GoogleMobileAds.MediaContent?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getImage(for assetName: Swift.String) -> GoogleMobileAds.NativeAdImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getDisplayOpenMeasurement() -> GoogleMobileAds.DisplayAdMeasurement?
   #endif
 }
 public typealias RazorpayInitializationCompletionHandler = ([RazorpayAdsSdk.AdapterStatus]?) -> Swift.Void
