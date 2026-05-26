@@ -631,6 +631,26 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "RazorpayAdsSdk"
       },
       {
@@ -693,6 +713,16 @@
         "moduleName": "RazorpayAdsSdk",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -792,6 +822,80 @@
             "declKind": "EnumElement",
             "usr": "s:14RazorpayAdsSdk0A6AdTypeO6banneryA2CmF",
             "mangledName": "$s14RazorpayAdsSdk0A6AdTypeO6banneryA2CmF",
+            "moduleName": "RazorpayAdsSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "carouselBanner",
+            "printedName": "carouselBanner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RazorpayAdsSdk.RazorpayAdType.Type) -> RazorpayAdsSdk.RazorpayAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RazorpayAdType",
+                    "printedName": "RazorpayAdsSdk.RazorpayAdType",
+                    "usr": "s:14RazorpayAdsSdk0A6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RazorpayAdsSdk.RazorpayAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RazorpayAdType",
+                        "printedName": "RazorpayAdsSdk.RazorpayAdType",
+                        "usr": "s:14RazorpayAdsSdk0A6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RazorpayAdsSdk0A6AdTypeO14carouselBanneryA2CmF",
+            "mangledName": "$s14RazorpayAdsSdk0A6AdTypeO14carouselBanneryA2CmF",
+            "moduleName": "RazorpayAdsSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "carouselNative",
+            "printedName": "carouselNative",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RazorpayAdsSdk.RazorpayAdType.Type) -> RazorpayAdsSdk.RazorpayAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RazorpayAdType",
+                    "printedName": "RazorpayAdsSdk.RazorpayAdType",
+                    "usr": "s:14RazorpayAdsSdk0A6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RazorpayAdsSdk.RazorpayAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RazorpayAdType",
+                        "printedName": "RazorpayAdsSdk.RazorpayAdType",
+                        "usr": "s:14RazorpayAdsSdk0A6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RazorpayAdsSdk0A6AdTypeO14carouselNativeyA2CmF",
+            "mangledName": "$s14RazorpayAdsSdk0A6AdTypeO14carouselNativeyA2CmF",
             "moduleName": "RazorpayAdsSdk"
           },
           {
@@ -1352,6 +1456,43 @@
             "declKind": "EnumElement",
             "usr": "s:14RazorpayAdsSdk3SDKO8razorpayyA2CmF",
             "mangledName": "$s14RazorpayAdsSdk3SDKO8razorpayyA2CmF",
+            "moduleName": "RazorpayAdsSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "razorpayDirect",
+            "printedName": "razorpayDirect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RazorpayAdsSdk.SDK.Type) -> RazorpayAdsSdk.SDK",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDK",
+                    "printedName": "RazorpayAdsSdk.SDK",
+                    "usr": "s:14RazorpayAdsSdk3SDKO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RazorpayAdsSdk.SDK.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDK",
+                        "printedName": "RazorpayAdsSdk.SDK",
+                        "usr": "s:14RazorpayAdsSdk3SDKO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RazorpayAdsSdk3SDKO14razorpayDirectyA2CmF",
+            "mangledName": "$s14RazorpayAdsSdk3SDKO14razorpayDirectyA2CmF",
             "moduleName": "RazorpayAdsSdk"
           },
           {
@@ -3630,6 +3771,294 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "PrecisionType",
+        "printedName": "PrecisionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RazorpayAdsSdk.PrecisionType.Type) -> RazorpayAdsSdk.PrecisionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrecisionType",
+                    "printedName": "RazorpayAdsSdk.PrecisionType",
+                    "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RazorpayAdsSdk.PrecisionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrecisionType",
+                        "printedName": "RazorpayAdsSdk.PrecisionType",
+                        "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO7unknownyA2CmF",
+            "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO7unknownyA2CmF",
+            "moduleName": "RazorpayAdsSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "estimated",
+            "printedName": "estimated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RazorpayAdsSdk.PrecisionType.Type) -> RazorpayAdsSdk.PrecisionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrecisionType",
+                    "printedName": "RazorpayAdsSdk.PrecisionType",
+                    "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RazorpayAdsSdk.PrecisionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrecisionType",
+                        "printedName": "RazorpayAdsSdk.PrecisionType",
+                        "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO9estimatedyA2CmF",
+            "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO9estimatedyA2CmF",
+            "moduleName": "RazorpayAdsSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "publisherProvided",
+            "printedName": "publisherProvided",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RazorpayAdsSdk.PrecisionType.Type) -> RazorpayAdsSdk.PrecisionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrecisionType",
+                    "printedName": "RazorpayAdsSdk.PrecisionType",
+                    "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RazorpayAdsSdk.PrecisionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrecisionType",
+                        "printedName": "RazorpayAdsSdk.PrecisionType",
+                        "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO17publisherProvidedyA2CmF",
+            "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO17publisherProvidedyA2CmF",
+            "moduleName": "RazorpayAdsSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "precise",
+            "printedName": "precise",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RazorpayAdsSdk.PrecisionType.Type) -> RazorpayAdsSdk.PrecisionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrecisionType",
+                    "printedName": "RazorpayAdsSdk.PrecisionType",
+                    "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RazorpayAdsSdk.PrecisionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrecisionType",
+                        "printedName": "RazorpayAdsSdk.PrecisionType",
+                        "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO7preciseyA2CmF",
+            "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO7preciseyA2CmF",
+            "moduleName": "RazorpayAdsSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO9hashValueSivp",
+            "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO9hashValueSivp",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk13PrecisionTypeO9hashValueSivg",
+                "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO9hashValueSivg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrecisionType",
+                "printedName": "RazorpayAdsSdk.PrecisionType",
+                "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrecisionType",
+                "printedName": "RazorpayAdsSdk.PrecisionType",
+                "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "RazorpayAdsSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14RazorpayAdsSdk13PrecisionTypeO",
+        "mangledName": "$s14RazorpayAdsSdk13PrecisionTypeO",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MediationAdEventCallbacks",
         "printedName": "MediationAdEventCallbacks",
         "children": [
@@ -3920,9 +4349,248 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onRevenuePaid",
+            "printedName": "onRevenuePaid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PrecisionType",
+                            "printedName": "RazorpayAdsSdk.PrecisionType",
+                            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV13onRevenuePaidySd_S3SAA13PrecisionTypeOtcSgvp",
+            "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV13onRevenuePaidySd_S3SAA13PrecisionTypeOtcSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PrecisionType",
+                                "printedName": "RazorpayAdsSdk.PrecisionType",
+                                "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV13onRevenuePaidySd_S3SAA13PrecisionTypeOtcSgvg",
+                "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV13onRevenuePaidySd_S3SAA13PrecisionTypeOtcSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PrecisionType",
+                                "printedName": "RazorpayAdsSdk.PrecisionType",
+                                "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV13onRevenuePaidySd_S3SAA13PrecisionTypeOtcSgvs",
+                "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV13onRevenuePaidySd_S3SAA13PrecisionTypeOtcSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV13onRevenuePaidySd_S3SAA13PrecisionTypeOtcSgvM",
+                "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV13onRevenuePaidySd_S3SAA13PrecisionTypeOtcSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(onClick:onImpression:)",
+            "printedName": "init(onClick:onImpression:onRevenuePaid:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3981,11 +4649,69 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Double, Swift.String, Swift.String, Swift.String, RazorpayAdsSdk.PrecisionType)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PrecisionType",
+                            "printedName": "RazorpayAdsSdk.PrecisionType",
+                            "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV7onClick0H10ImpressionACyycSg_AFtcfc",
-            "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV7onClick0H10ImpressionACyycSg_AFtcfc",
+            "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV7onClick0H10Impression0H11RevenuePaidACyycSg_AGySd_S3SAA13PrecisionTypeOtcSgtcfc",
+            "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV7onClick0H10Impression0H11RevenuePaidACyycSg_AGySd_S3SAA13PrecisionTypeOtcSgtcfc",
             "moduleName": "RazorpayAdsSdk",
             "declAttributes": [
               "AccessControl"
@@ -4807,6 +5533,200 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Ad",
+            "printedName": "Ad",
+            "usr": "s:14RazorpayAdsSdk2AdP",
+            "mangledName": "$s14RazorpayAdsSdk2AdP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MediationCarouselBannerAd",
+        "printedName": "MediationCarouselBannerAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ads",
+            "printedName": "ads",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any RazorpayAdsSdk.MediationBannerAd]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationBannerAd",
+                    "printedName": "any RazorpayAdsSdk.MediationBannerAd",
+                    "usr": "s:14RazorpayAdsSdk17MediationBannerAdP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk25MediationCarouselBannerAdP3adsSayAA0dfG0_pGvp",
+            "mangledName": "$s14RazorpayAdsSdk25MediationCarouselBannerAdP3adsSayAA0dfG0_pGvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any RazorpayAdsSdk.MediationBannerAd]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationBannerAd",
+                        "printedName": "any RazorpayAdsSdk.MediationBannerAd",
+                        "usr": "s:14RazorpayAdsSdk17MediationBannerAdP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk25MediationCarouselBannerAdP3adsSayAA0dfG0_pGvg",
+                "mangledName": "$s14RazorpayAdsSdk25MediationCarouselBannerAdP3adsSayAA0dfG0_pGvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationCarouselBannerAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationCarouselBannerAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14RazorpayAdsSdk25MediationCarouselBannerAdP",
+        "mangledName": "$s14RazorpayAdsSdk25MediationCarouselBannerAdP",
+        "moduleName": "RazorpayAdsSdk",
+        "genericSig": "<τ_0_0 : RazorpayAdsSdk.Ad>",
+        "sugared_genericSig": "<Self : RazorpayAdsSdk.Ad>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Ad",
+            "printedName": "Ad",
+            "usr": "s:14RazorpayAdsSdk2AdP",
+            "mangledName": "$s14RazorpayAdsSdk2AdP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MediationCarouselNativeAd",
+        "printedName": "MediationCarouselNativeAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ads",
+            "printedName": "ads",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any RazorpayAdsSdk.MediationNativeAd]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationNativeAd",
+                    "printedName": "any RazorpayAdsSdk.MediationNativeAd",
+                    "usr": "s:14RazorpayAdsSdk17MediationNativeAdP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk25MediationCarouselNativeAdP3adsSayAA0dfG0_pGvp",
+            "mangledName": "$s14RazorpayAdsSdk25MediationCarouselNativeAdP3adsSayAA0dfG0_pGvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any RazorpayAdsSdk.MediationNativeAd]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationNativeAd",
+                        "printedName": "any RazorpayAdsSdk.MediationNativeAd",
+                        "usr": "s:14RazorpayAdsSdk17MediationNativeAdP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk25MediationCarouselNativeAdP3adsSayAA0dfG0_pGvg",
+                "mangledName": "$s14RazorpayAdsSdk25MediationCarouselNativeAdP3adsSayAA0dfG0_pGvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationCarouselNativeAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationCarouselNativeAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14RazorpayAdsSdk25MediationCarouselNativeAdP",
+        "mangledName": "$s14RazorpayAdsSdk25MediationCarouselNativeAdP",
+        "moduleName": "RazorpayAdsSdk",
+        "genericSig": "<τ_0_0 : RazorpayAdsSdk.Ad>",
+        "sugared_genericSig": "<Self : RazorpayAdsSdk.Ad>",
+        "declAttributes": [
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -8206,6 +9126,33 @@
           },
           {
             "kind": "Function",
+            "name": "onCarouselBannerAdLoaded",
+            "printedName": "onCarouselBannerAdLoaded(carouselBannerAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationCarouselBannerAd",
+                "printedName": "any RazorpayAdsSdk.MediationCarouselBannerAd",
+                "usr": "s:14RazorpayAdsSdk25MediationCarouselBannerAdP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk19MediationAdDelegateP016onCarouselBannerE6Loaded08carouseliE0yAA0dhiE0_p_tF",
+            "mangledName": "$s14RazorpayAdsSdk19MediationAdDelegateP016onCarouselBannerE6Loaded08carouseliE0yAA0dhiE0_p_tF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationAdDelegate>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationAdDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onInterstitialAdLoaded",
             "printedName": "onInterstitialAdLoaded(interstitialAd:)",
             "children": [
@@ -8314,6 +9261,33 @@
           },
           {
             "kind": "Function",
+            "name": "onCarouselNativeAdLoaded",
+            "printedName": "onCarouselNativeAdLoaded(carouselNativeAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationCarouselNativeAd",
+                "printedName": "any RazorpayAdsSdk.MediationCarouselNativeAd",
+                "usr": "s:14RazorpayAdsSdk25MediationCarouselNativeAdP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk19MediationAdDelegateP016onCarouselNativeE6Loaded08carouseliE0yAA0dhiE0_p_tF",
+            "mangledName": "$s14RazorpayAdsSdk19MediationAdDelegateP016onCarouselNativeE6Loaded08carouseliE0yAA0dhiE0_p_tF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationAdDelegate>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationAdDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onCustomNativeAdLoaded",
             "printedName": "onCustomNativeAdLoaded(customNativeAd:)",
             "children": [
@@ -8359,6 +9333,57 @@
             "declKind": "Func",
             "usr": "s:14RazorpayAdsSdk19MediationAdDelegateP09onAppOpenE6Loaded03appiE0yAA0dhiE0_p_tF",
             "mangledName": "$s14RazorpayAdsSdk19MediationAdDelegateP09onAppOpenE6Loaded03appiE0yAA0dhiE0_p_tF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationAdDelegate>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationAdDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdRevenuePaid",
+            "printedName": "onAdRevenuePaid(revenue:adUnitId:network:currency:precisionType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrecisionType",
+                "printedName": "RazorpayAdsSdk.PrecisionType",
+                "usr": "s:14RazorpayAdsSdk13PrecisionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk19MediationAdDelegateP02onE11RevenuePaid7revenue8adUnitId7network8currency13precisionTypeySd_S3SAA09PrecisionQ0OtF",
+            "mangledName": "$s14RazorpayAdsSdk19MediationAdDelegateP02onE11RevenuePaid7revenue8adUnitId7network8currency13precisionTypeySd_S3SAA09PrecisionQ0OtF",
             "moduleName": "RazorpayAdsSdk",
             "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationAdDelegate>",
             "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationAdDelegate>",
@@ -11391,21 +12416,21 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/admob\/AdMobBannerAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 972,
+      "offset": 969,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/admob\/AdMobNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1194,
+      "offset": 1191,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/admob\/AdMobNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1243,
+      "offset": 1240,
       "length": 5,
       "value": "false"
     },
@@ -11888,245 +12913,252 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/gam\/GAMBannerAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 1275,
+      "offset": 1303,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/gam\/GAMNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1008,
+      "offset": 1005,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/gam\/GAMNativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1057,
+      "offset": 1054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/Network.swift",
       "kind": "StringLiteral",
-      "offset": 4049,
+      "offset": 4141,
       "length": 11,
       "value": "\"analytics\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1184,
       "length": 9,
       "value": "\"ad_type\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1201,
+      "offset": 1218,
+      "length": 11,
+      "value": "\"adunit_id\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
       "length": 18,
       "value": "\"ad_render_config\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1243,
+      "offset": 1302,
       "length": 10,
       "value": "\"dest_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1297,
+      "offset": 1356,
       "length": 12,
       "value": "\"main_image\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1369,
+      "offset": 1428,
       "length": 10,
       "value": "\"vast_tag\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1425,
+      "offset": 1484,
       "length": 14,
       "value": "\"dsp_branding\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1490,
+      "offset": 1549,
       "length": 17,
       "value": "\"open_url_in_app\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3630,
+      "offset": 4070,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3647,
+      "offset": 4087,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 3912,
+      "offset": 4352,
       "length": 5,
       "value": "\"imp\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "Array",
-      "offset": 4266,
+      "offset": 4706,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "Array",
-      "offset": 4293,
+      "offset": 4733,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 4629,
+      "offset": 5069,
       "length": 11,
       "value": "\"ui_config\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 4664,
+      "offset": 5104,
       "length": 10,
       "value": "\"end_card\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5196,
+      "offset": 5636,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5222,
+      "offset": 5662,
       "length": 10,
       "value": "\"portrait\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5674,
+      "offset": 6114,
       "length": 19,
       "value": "\"show_close_button\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5726,
+      "offset": 6166,
       "length": 20,
       "value": "\"close_button_delay\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5776,
+      "offset": 6216,
       "length": 16,
       "value": "\"show_countdown\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5824,
+      "offset": 6264,
       "length": 18,
       "value": "\"force_fullscreen\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6402,
+      "offset": 6842,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6432,
+      "offset": 6872,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6457,
+      "offset": 6897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6488,
+      "offset": 6928,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6990,
+      "offset": 7430,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7308,
+      "offset": 7749,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7389,
+      "offset": 7830,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7408,
+      "offset": 7849,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7431,
+      "offset": 7872,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7454,
+      "offset": 7895,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7476,
+      "offset": 7917,
       "length": 2,
       "value": "\"\""
     },
@@ -12182,49 +13214,70 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayAdapter.swift",
       "kind": "Dictionary",
-      "offset": 205,
+      "offset": 202,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayAdapter.swift",
       "kind": "Dictionary",
-      "offset": 298,
+      "offset": 305,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayAdapter.swift",
       "kind": "Dictionary",
-      "offset": 379,
+      "offset": 398,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 479,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 582,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
       "kind": "Array",
-      "offset": 685,
+      "offset": 682,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
       "kind": "Array",
-      "offset": 737,
+      "offset": 734,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 3911,
-      "length": 39,
-      "value": "\"https:\/\/adreq.razorpayads.com\/v1\/rapi\""
+      "offset": 817,
+      "length": 5,
+      "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
       "kind": "StringLiteral",
-      "offset": 3990,
+      "offset": 4717,
+      "length": 37,
+      "value": "\"https:\/\/adreq.razorpay.tech\/v1\/rapi\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayBannerAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4794,
       "length": 10,
       "value": "\"\/v1\/rapi\""
     },
@@ -12371,23 +13424,30 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialAd.swift",
       "kind": "Array",
-      "offset": 549,
+      "offset": 546,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialAd.swift",
       "kind": "Array",
-      "offset": 601,
+      "offset": 598,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1057,
+      "offset": 1054,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 5,
+      "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayInterstitialViewController.swift",
@@ -12488,9 +13548,16 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 5,
+      "value": "\"USD\""
+    },
+    {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayRequestHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1516,
+      "offset": 3157,
       "length": 6,
       "value": "\"ppid\""
     },
@@ -12609,259 +13676,280 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 2486,
+      "offset": 2475,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3635,
+      "offset": 3624,
       "length": 7,
       "value": "\"allow\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 3649,
       "length": 7,
       "value": "\"block\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "FloatLiteral",
-      "offset": 5039,
+      "offset": 5028,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5247,
+      "offset": 5236,
       "length": 8,
       "value": "\"native\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5274,
+      "offset": 5263,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5307,
+      "offset": 5298,
+      "length": 17,
+      "value": "\"carousel-banner\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5342,
+      "length": 17,
+      "value": "\"carousel-native\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5384,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5342,
+      "offset": 5419,
       "length": 10,
       "value": "\"rewarded\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5379,
+      "offset": 5456,
       "length": 16,
       "value": "\"rewarded_inter\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5415,
+      "offset": 5492,
       "length": 9,
       "value": "\"appopen\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5447,
+      "offset": 5524,
       "length": 12,
       "value": "\"unifiedAoi\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5479,
+      "offset": 5556,
       "length": 9,
       "value": "\"unified\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5513,
+      "offset": 5590,
       "length": 14,
       "value": "\"nativeCustom\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5545,
+      "offset": 5622,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5613,
+      "offset": 5690,
       "length": 13,
       "value": "\"INIT_CONFIG\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5650,
+      "offset": 5727,
       "length": 14,
       "value": "\"INIT_REQUEST\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5689,
+      "offset": 5766,
       "length": 15,
       "value": "\"INIT_RESPONSE\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5726,
+      "offset": 5803,
       "length": 12,
       "value": "\"AD_REQUEST\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5768,
+      "offset": 5845,
       "length": 21,
       "value": "\"AD_REQUEST_BACKFILL\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5815,
+      "offset": 5892,
       "length": 16,
       "value": "\"AD_OPPORTUNITY\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5860,
+      "offset": 5937,
       "length": 20,
       "value": "\"AD_REQUEST_ADAPTER\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5903,
+      "offset": 5980,
       "length": 13,
       "value": "\"AD_RESPONSE\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5938,
+      "offset": 6015,
       "length": 12,
       "value": "\"AD_CLICKED\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5975,
+      "offset": 6052,
       "length": 15,
       "value": "\"AD_IMPRESSION\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6011,
+      "offset": 6088,
       "length": 11,
       "value": "\"AD_CACHED\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6045,
+      "offset": 6122,
       "length": 14,
       "value": "\"AD_CACHE_HIT\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6083,
+      "offset": 6160,
       "length": 15,
       "value": "\"AD_CACHE_MISS\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6120,
+      "offset": 6197,
       "length": 11,
       "value": "\"EXCEPTION\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6187,
+      "offset": 6264,
       "length": 7,
       "value": "\"admob\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6210,
+      "offset": 6287,
       "length": 5,
       "value": "\"gam\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6236,
+      "offset": 6313,
       "length": 10,
       "value": "\"razorpay\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6266,
+      "offset": 6350,
+      "length": 17,
+      "value": "\"razorpay_direct\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6387,
       "length": 9,
       "value": "\"liftoff\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6291,
+      "offset": 6412,
       "length": 5,
       "value": "\"jio\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6315,
+      "offset": 6436,
       "length": 8,
       "value": "\"inmobi\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6341,
+      "offset": 6462,
       "length": 7,
       "value": "\"unity\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6381,
+      "offset": 6502,
       "length": 22,
       "value": "\"headerBiddingAdapter\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 9146,
+      "offset": 9443,
       "length": 2,
       "value": "59"
     },
@@ -12959,21 +14047,42 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4177,
+      "offset": 4852,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4245,
+      "offset": 4920,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 4274,
+      "offset": 4949,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5624,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
+      "kind": "FloatLiteral",
+      "offset": 5724,
       "length": 3,
       "value": "0.0"
     },
@@ -13008,49 +14117,49 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Razorpay.swift",
       "kind": "Dictionary",
-      "offset": 2658,
+      "offset": 2637,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "Dictionary",
-      "offset": 304,
+      "offset": 301,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 832,
+      "offset": 829,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19836,
+      "offset": 19833,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24824,
+      "offset": 25530,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25012,
+      "offset": 25718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 59297,
+      "offset": 65974,
       "length": 5,
       "value": "false"
     },
