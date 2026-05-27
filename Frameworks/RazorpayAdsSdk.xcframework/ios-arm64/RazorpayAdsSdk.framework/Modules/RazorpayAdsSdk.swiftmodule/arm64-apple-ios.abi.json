@@ -3031,6 +3031,77 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordNativeCustomClick",
+            "printedName": "recordNativeCustomClick(ad:assetName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationNativeCustomFormatAd",
+                "printedName": "any RazorpayAdsSdk.MediationNativeCustomFormatAd",
+                "usr": "s:14RazorpayAdsSdk29MediationNativeCustomFormatAdP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk36MediationNativeCustomAdEventDelegateP06recordeF5Click2ad9assetNameyAA0def6FormatG0_p_SStF",
+            "mangledName": "$s14RazorpayAdsSdk36MediationNativeCustomAdEventDelegateP06recordeF5Click2ad9assetNameyAA0def6FormatG0_p_SStF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeCustomAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeCustomAdEventDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordNativeCustomClick",
+            "printedName": "recordNativeCustomClick(ad:assetName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationNativeCustomFormatAd",
+                "printedName": "any RazorpayAdsSdk.MediationNativeCustomFormatAd",
+                "usr": "s:14RazorpayAdsSdk29MediationNativeCustomFormatAdP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk36MediationNativeCustomAdEventDelegatePAAE06recordeF5Click2ad9assetNameyAA0def6FormatG0_p_SStF",
+            "mangledName": "$s14RazorpayAdsSdk36MediationNativeCustomAdEventDelegatePAAE06recordeF5Click2ad9assetNameyAA0def6FormatG0_p_SStF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeCustomAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeCustomAdEventDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -4588,9 +4659,156 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onCustomNativeClick",
+            "printedName": "onCustomNativeClick",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV19onCustomNativeClickySScSgvp",
+            "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV19onCustomNativeClickySScSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV19onCustomNativeClickySScSgvg",
+                "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV19onCustomNativeClickySScSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV19onCustomNativeClickySScSgvs",
+                "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV19onCustomNativeClickySScSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV19onCustomNativeClickySScSgvM",
+                "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV19onCustomNativeClickySScSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(onClick:onImpression:onRevenuePaid:)",
+            "printedName": "init(onClick:onImpression:onRevenuePaid:onCustomNativeClick:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4707,11 +4925,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV7onClick0H10Impression0H11RevenuePaidACyycSg_AGySd_S3SAA13PrecisionTypeOtcSgtcfc",
-            "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV7onClick0H10Impression0H11RevenuePaidACyycSg_AGySd_S3SAA13PrecisionTypeOtcSgtcfc",
+            "usr": "s:14RazorpayAdsSdk25MediationAdEventCallbacksV7onClick0H10Impression0H11RevenuePaid0h12CustomNativeI0ACyycSg_AHySd_S3SAA13PrecisionTypeOtcSgySScSgtcfc",
+            "mangledName": "$s14RazorpayAdsSdk25MediationAdEventCallbacksV7onClick0H10Impression0H11RevenuePaid0h12CustomNativeI0ACyycSg_AHySd_S3SAA13PrecisionTypeOtcSgySScSgtcfc",
             "moduleName": "RazorpayAdsSdk",
             "declAttributes": [
               "AccessControl"
@@ -13949,7 +14194,7 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 9443,
+      "offset": 9842,
       "length": 2,
       "value": "59"
     },
@@ -14067,24 +14312,38 @@
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5624,
+      "offset": 5665,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5694,
+      "offset": 5735,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 5724,
+      "offset": 5765,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5805,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/AdMetaDataStore.swift",
@@ -14145,21 +14404,21 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25530,
+      "offset": 26112,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25718,
+      "offset": 26300,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 65974,
+      "offset": 66556,
       "length": 5,
       "value": "false"
     },
