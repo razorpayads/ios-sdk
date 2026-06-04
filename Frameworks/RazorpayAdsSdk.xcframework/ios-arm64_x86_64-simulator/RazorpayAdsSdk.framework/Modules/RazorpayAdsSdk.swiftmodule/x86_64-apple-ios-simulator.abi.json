@@ -562,6 +562,378 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "DSPBranding",
+        "printedName": "DSPBranding",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "partner",
+            "printedName": "partner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk11DSPBrandingV7partnerSSvp",
+            "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV7partnerSSvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk11DSPBrandingV7partnerSSvg",
+                "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV7partnerSSvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk11DSPBrandingV4textSSvp",
+            "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV4textSSvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk11DSPBrandingV4textSSvg",
+                "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV4textSSvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk11DSPBrandingV8imageUrlSSvp",
+            "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV8imageUrlSSvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk11DSPBrandingV8imageUrlSSvg",
+                "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV8imageUrlSSvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "position",
+            "printedName": "position",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk11DSPBrandingV8positionSSvp",
+            "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV8positionSSvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk11DSPBrandingV8positionSSvg",
+                "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV8positionSSvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "landing",
+            "printedName": "landing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk11DSPBrandingV7landingSSvp",
+            "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV7landingSSvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk11DSPBrandingV7landingSSvg",
+                "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV7landingSSvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(partner:text:imageUrl:position:landing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSPBranding",
+                "printedName": "RazorpayAdsSdk.DSPBranding",
+                "usr": "s:14RazorpayAdsSdk11DSPBrandingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk11DSPBrandingV7partner4text8imageUrl8position7landingACSS_S4Stcfc",
+            "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV7partner4text8imageUrl8position7landingACSS_S4Stcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DSPBranding",
+                "printedName": "RazorpayAdsSdk.DSPBranding",
+                "usr": "s:14RazorpayAdsSdk11DSPBrandingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk11DSPBrandingV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk11DSPBrandingV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RazorpayAdsSdk11DSPBrandingV",
+        "mangledName": "$s14RazorpayAdsSdk11DSPBrandingV",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1192,6 +1564,43 @@
             "declKind": "EnumElement",
             "usr": "s:14RazorpayAdsSdk0A6AdTypeO12nativeCustomyA2CmF",
             "mangledName": "$s14RazorpayAdsSdk0A6AdTypeO12nativeCustomyA2CmF",
+            "moduleName": "RazorpayAdsSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "nativeReward",
+            "printedName": "nativeReward",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RazorpayAdsSdk.RazorpayAdType.Type) -> RazorpayAdsSdk.RazorpayAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RazorpayAdType",
+                    "printedName": "RazorpayAdsSdk.RazorpayAdType",
+                    "usr": "s:14RazorpayAdsSdk0A6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RazorpayAdsSdk.RazorpayAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RazorpayAdType",
+                        "printedName": "RazorpayAdsSdk.RazorpayAdType",
+                        "usr": "s:14RazorpayAdsSdk0A6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14RazorpayAdsSdk0A6AdTypeO12nativeRewardyA2CmF",
+            "mangledName": "$s14RazorpayAdsSdk0A6AdTypeO12nativeRewardyA2CmF",
             "moduleName": "RazorpayAdsSdk"
           },
           {
@@ -2612,6 +3021,966 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "MediationNativeRewardAdView",
+        "printedName": "MediationNativeRewardAdView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "headlineView",
+            "printedName": "headlineView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(py)headlineView",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC08headlineH0So6UIViewCSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)headlineView",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC08headlineH0So6UIViewCSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)setHeadlineView:",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC08headlineH0So6UIViewCSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk27MediationNativeRewardAdViewC08headlineH0So6UIViewCSgvM",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC08headlineH0So6UIViewCSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mediaView",
+            "printedName": "mediaView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(py)mediaView",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC05mediaH0So6UIViewCSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)mediaView",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC05mediaH0So6UIViewCSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)setMediaView:",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC05mediaH0So6UIViewCSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk27MediationNativeRewardAdViewC05mediaH0So6UIViewCSgvM",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC05mediaH0So6UIViewCSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ctaView",
+            "printedName": "ctaView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(py)ctaView",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC03ctaH0So6UIViewCSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)ctaView",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC03ctaH0So6UIViewCSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)setCtaView:",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC03ctaH0So6UIViewCSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk27MediationNativeRewardAdViewC03ctaH0So6UIViewCSgvM",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC03ctaH0So6UIViewCSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyView",
+            "printedName": "bodyView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(py)bodyView",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC04bodyH0So6UIViewCSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)bodyView",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC04bodyH0So6UIViewCSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)setBodyView:",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC04bodyH0So6UIViewCSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk27MediationNativeRewardAdViewC04bodyH0So6UIViewCSgvM",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC04bodyH0So6UIViewCSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logoView",
+            "printedName": "logoView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(py)logoView",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC04logoH0So6UIViewCSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)logoView",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC04logoH0So6UIViewCSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)setLogoView:",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC04logoH0So6UIViewCSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk27MediationNativeRewardAdViewC04logoH0So6UIViewCSgvM",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC04logoH0So6UIViewCSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "advertiserView",
+            "printedName": "advertiserView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(py)advertiserView",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC010advertiserH0So6UIViewCSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)advertiserView",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC010advertiserH0So6UIViewCSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)setAdvertiserView:",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC010advertiserH0So6UIViewCSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk27MediationNativeRewardAdViewC010advertiserH0So6UIViewCSgvM",
+                "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC010advertiserH0So6UIViewCSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)layoutSubviews",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC14layoutSubviewsyyF",
+            "moduleName": "RazorpayAdsSdk",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)didMoveToWindow",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC15didMoveToWindowyyF",
+            "moduleName": "RazorpayAdsSdk",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNativeRewardAd",
+            "printedName": "setNativeRewardAd(nativeRewardAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationNativeRewardAd",
+                "printedName": "any RazorpayAdsSdk.MediationNativeRewardAd",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk27MediationNativeRewardAdViewC03setefG006nativefG0yAA0defG0_p_tF",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC03setefG006nativefG0yAA0defG0_p_tF",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MediationNativeRewardAdView",
+                "printedName": "RazorpayAdsSdk.MediationNativeRewardAdView",
+                "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)initWithFrame:",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayAdsSdk.MediationNativeRewardAdView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationNativeRewardAdView",
+                    "printedName": "RazorpayAdsSdk.MediationNativeRewardAdView",
+                    "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView(im)initWithCoder:",
+            "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RazorpayAdsSdk@objc(cs)MediationNativeRewardAdView",
+        "mangledName": "$s14RazorpayAdsSdk27MediationNativeRewardAdViewC",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -2999,6 +4368,80 @@
         "declKind": "Protocol",
         "usr": "s:14RazorpayAdsSdk30MediationNativeAdEventDelegateP",
         "mangledName": "$s14RazorpayAdsSdk30MediationNativeAdEventDelegateP",
+        "moduleName": "RazorpayAdsSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MediationNativeRewardAdEventDelegate",
+        "printedName": "MediationNativeRewardAdEventDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "recordNativeRewardClick",
+            "printedName": "recordNativeRewardClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP06recordeF5ClickyyF",
+            "mangledName": "$s14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP06recordeF5ClickyyF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAdEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordNativeRewardImpression",
+            "printedName": "recordNativeRewardImpression()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP06recordeF10ImpressionyyF",
+            "mangledName": "$s14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP06recordeF10ImpressionyyF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAdEventDelegate>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAdEventDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP",
+        "mangledName": "$s14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP",
         "moduleName": "RazorpayAdsSdk",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -5255,6 +6698,1329 @@
         "moduleName": "RazorpayAdsSdk",
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeReward",
+        "printedName": "NativeReward",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV2idSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV2idSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV2idSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk12NativeRewardV2idSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV4typeSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV4typeSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV4typeSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk12NativeRewardV4typeSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "entity",
+            "printedName": "entity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV6entitySSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV6entitySSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV6entitySSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk12NativeRewardV6entitySSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "coupon",
+            "printedName": "coupon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayAdsSdk.NativeRewardCoupon?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeRewardCoupon",
+                    "printedName": "RazorpayAdsSdk.NativeRewardCoupon",
+                    "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV6couponAA0dE6CouponVSgvp",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV6couponAA0dE6CouponVSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RazorpayAdsSdk.NativeRewardCoupon?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardCoupon",
+                        "printedName": "RazorpayAdsSdk.NativeRewardCoupon",
+                        "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV6couponAA0dE6CouponVSgvg",
+                "mangledName": "$s14RazorpayAdsSdk12NativeRewardV6couponAA0dE6CouponVSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brand",
+            "printedName": "brand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayAdsSdk.NativeRewardBrand?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeRewardBrand",
+                    "printedName": "RazorpayAdsSdk.NativeRewardBrand",
+                    "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV5brandAA0dE5BrandVSgvp",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV5brandAA0dE5BrandVSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RazorpayAdsSdk.NativeRewardBrand?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeRewardBrand",
+                        "printedName": "RazorpayAdsSdk.NativeRewardBrand",
+                        "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV5brandAA0dE5BrandVSgvg",
+                "mangledName": "$s14RazorpayAdsSdk12NativeRewardV5brandAA0dE5BrandVSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV11descriptionSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV11descriptionSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV11descriptionSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk12NativeRewardV11descriptionSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tnc",
+            "printedName": "tnc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV3tncSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV3tncSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV3tncSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk12NativeRewardV3tncSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redemptionInstructions",
+            "printedName": "redemptionInstructions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV22redemptionInstructionsSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV22redemptionInstructionsSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV22redemptionInstructionsSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk12NativeRewardV22redemptionInstructionsSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:type:entity:coupon:brand:description:tnc:redemptionInstructions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeReward",
+                "printedName": "RazorpayAdsSdk.NativeReward",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayAdsSdk.NativeRewardCoupon?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeRewardCoupon",
+                    "printedName": "RazorpayAdsSdk.NativeRewardCoupon",
+                    "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayAdsSdk.NativeRewardBrand?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeRewardBrand",
+                    "printedName": "RazorpayAdsSdk.NativeRewardBrand",
+                    "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV2id4type6entity6coupon5brand11description3tnc22redemptionInstructionsACSSSg_A2lA0dE6CouponVSgAA0dE5BrandVSgA3Ltcfc",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV2id4type6entity6coupon5brand11description3tnc22redemptionInstructionsACSSSg_A2lA0dE6CouponVSgAA0dE5BrandVSgA3Ltcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeReward",
+                "printedName": "RazorpayAdsSdk.NativeReward",
+                "usr": "s:14RazorpayAdsSdk12NativeRewardV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk12NativeRewardV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RazorpayAdsSdk12NativeRewardV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RazorpayAdsSdk12NativeRewardV",
+        "mangledName": "$s14RazorpayAdsSdk12NativeRewardV",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeRewardCoupon",
+        "printedName": "NativeRewardCoupon",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV4codeSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV4codeSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV4codeSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV4codeSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresAt",
+            "printedName": "expiresAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV9expiresAts5Int64VSgvp",
+            "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV9expiresAts5Int64VSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV9expiresAts5Int64VSgvg",
+                "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV9expiresAts5Int64VSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redemptionUrl",
+            "printedName": "redemptionUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV13redemptionUrlSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV13redemptionUrlSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV13redemptionUrlSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV13redemptionUrlSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:expiresAt:redemptionUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeRewardCoupon",
+                "printedName": "RazorpayAdsSdk.NativeRewardCoupon",
+                "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV4code9expiresAt13redemptionUrlACSSSg_s5Int64VSgAGtcfc",
+            "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV4code9expiresAt13redemptionUrlACSSSg_s5Int64VSgAGtcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeRewardCoupon",
+                "printedName": "RazorpayAdsSdk.NativeRewardCoupon",
+                "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RazorpayAdsSdk18NativeRewardCouponV",
+        "mangledName": "$s14RazorpayAdsSdk18NativeRewardCouponV",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeRewardBrand",
+        "printedName": "NativeRewardBrand",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "displayName",
+            "printedName": "displayName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV11displayNameSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk17NativeRewardBrandV11displayNameSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV11displayNameSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk17NativeRewardBrandV11displayNameSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logoUrl",
+            "printedName": "logoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV7logoUrlSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk17NativeRewardBrandV7logoUrlSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV7logoUrlSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk17NativeRewardBrandV7logoUrlSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(displayName:logoUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeRewardBrand",
+                "printedName": "RazorpayAdsSdk.NativeRewardBrand",
+                "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV11displayName7logoUrlACSSSg_AFtcfc",
+            "mangledName": "$s14RazorpayAdsSdk17NativeRewardBrandV11displayName7logoUrlACSSSg_AFtcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeRewardBrand",
+                "printedName": "RazorpayAdsSdk.NativeRewardBrand",
+                "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14RazorpayAdsSdk17NativeRewardBrandV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14RazorpayAdsSdk17NativeRewardBrandV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RazorpayAdsSdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14RazorpayAdsSdk17NativeRewardBrandV",
+        "mangledName": "$s14RazorpayAdsSdk17NativeRewardBrandV",
+        "moduleName": "RazorpayAdsSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -7661,6 +10427,1219 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MediationNativeRewardAd",
+        "printedName": "MediationNativeRewardAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventDelegate",
+            "printedName": "eventDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any RazorpayAdsSdk.MediationNativeRewardAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediationNativeRewardAdEventDelegate",
+                    "printedName": "any RazorpayAdsSdk.MediationNativeRewardAdEventDelegate",
+                    "usr": "s:14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP13eventDelegateAA0defg5EventI0_pSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP13eventDelegateAA0defg5EventI0_pSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any RazorpayAdsSdk.MediationNativeRewardAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationNativeRewardAdEventDelegate",
+                        "printedName": "any RazorpayAdsSdk.MediationNativeRewardAdEventDelegate",
+                        "usr": "s:14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP13eventDelegateAA0defg5EventI0_pSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP13eventDelegateAA0defg5EventI0_pSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any RazorpayAdsSdk.MediationNativeRewardAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationNativeRewardAdEventDelegate",
+                        "printedName": "any RazorpayAdsSdk.MediationNativeRewardAdEventDelegate",
+                        "usr": "s:14RazorpayAdsSdk36MediationNativeRewardAdEventDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP13eventDelegateAA0defg5EventI0_pSgvs",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP13eventDelegateAA0defg5EventI0_pSgvs",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP13eventDelegateAA0defg5EventI0_pSgvM",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP13eventDelegateAA0defg5EventI0_pSgvM",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headline",
+            "printedName": "headline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP8headlineSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP8headlineSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP8headlineSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP8headlineSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callToAction",
+            "printedName": "callToAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP12callToActionSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP12callToActionSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP12callToActionSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP12callToActionSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP4iconSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP4iconSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP4iconSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP4iconSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logo",
+            "printedName": "logo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP4logoSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP4logoSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP4logoSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP4logoSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP4bodySSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP4bodySSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP4bodySSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP4bodySSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "landingUrl",
+            "printedName": "landingUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP10landingUrlSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP10landingUrlSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP10landingUrlSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP10landingUrlSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "openUrlInApp",
+            "printedName": "openUrlInApp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP12openUrlInAppSbvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP12openUrlInAppSbvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP12openUrlInAppSbvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP12openUrlInAppSbvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "starRating",
+            "printedName": "starRating",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP10starRatingSdSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP10starRatingSdSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP10starRatingSdSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP10starRatingSdSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "advertiser",
+            "printedName": "advertiser",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP10advertiserSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP10advertiserSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP10advertiserSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP10advertiserSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mediaView",
+            "printedName": "mediaView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP9mediaViewSo6UIViewCSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP9mediaViewSo6UIViewCSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP9mediaViewSo6UIViewCSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP9mediaViewSo6UIViewCSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageURL",
+            "printedName": "imageURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP8imageURLSSSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP8imageURLSSSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP8imageURLSSSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP8imageURLSSSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dspBranding",
+            "printedName": "dspBranding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayAdsSdk.DSPBranding?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DSPBranding",
+                    "printedName": "RazorpayAdsSdk.DSPBranding",
+                    "usr": "s:14RazorpayAdsSdk11DSPBrandingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP11dspBrandingAA11DSPBrandingVSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP11dspBrandingAA11DSPBrandingVSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RazorpayAdsSdk.DSPBranding?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSPBranding",
+                        "printedName": "RazorpayAdsSdk.DSPBranding",
+                        "usr": "s:14RazorpayAdsSdk11DSPBrandingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP11dspBrandingAA11DSPBrandingVSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP11dspBrandingAA11DSPBrandingVSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "overrideImpressionHandling",
+            "printedName": "overrideImpressionHandling",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP26overrideImpressionHandlingSbvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP26overrideImpressionHandlingSbvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP26overrideImpressionHandlingSbvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP26overrideImpressionHandlingSbvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP26overrideImpressionHandlingSbvs",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP26overrideImpressionHandlingSbvs",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP26overrideImpressionHandlingSbvM",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP26overrideImpressionHandlingSbvM",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "overrideClickHandling",
+            "printedName": "overrideClickHandling",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP21overrideClickHandlingSbvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP21overrideClickHandlingSbvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP21overrideClickHandlingSbvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP21overrideClickHandlingSbvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP21overrideClickHandlingSbvs",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP21overrideClickHandlingSbvs",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP21overrideClickHandlingSbvM",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP21overrideClickHandlingSbvM",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasReward",
+            "printedName": "hasReward",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP03hasF0Sbvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP03hasF0Sbvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP03hasF0Sbvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP03hasF0Sbvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reward",
+            "printedName": "reward",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayAdsSdk.NativeReward?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeReward",
+                    "printedName": "RazorpayAdsSdk.NativeReward",
+                    "usr": "s:14RazorpayAdsSdk12NativeRewardV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP6rewardAA0eF0VSgvp",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP6rewardAA0eF0VSgvp",
+            "moduleName": "RazorpayAdsSdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RazorpayAdsSdk.NativeReward?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeReward",
+                        "printedName": "RazorpayAdsSdk.NativeReward",
+                        "usr": "s:14RazorpayAdsSdk12NativeRewardV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP6rewardAA0eF0VSgvg",
+                "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP6rewardAA0eF0VSgvg",
+                "moduleName": "RazorpayAdsSdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "registerAdView",
+            "printedName": "registerAdView(_:clickableAssetViews:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : UIKit.UIView?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP08registerG4View_19clickableAssetViewsySo6UIViewC_SDySSAGSgGtF",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP08registerG4View_19clickableAssetViewsySo6UIViewC_SDySSAGSgGtF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordNativeRewardClick",
+            "printedName": "recordNativeRewardClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP06recordeF5ClickyyF",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP06recordeF5ClickyyF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordNativeRewardImpression",
+            "printedName": "recordNativeRewardImpression()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP06recordeF10ImpressionyyF",
+            "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP06recordeF10ImpressionyyF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationNativeRewardAd>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationNativeRewardAd>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP",
+        "mangledName": "$s14RazorpayAdsSdk23MediationNativeRewardAdP",
+        "moduleName": "RazorpayAdsSdk",
+        "genericSig": "<τ_0_0 : RazorpayAdsSdk.Ad>",
+        "sugared_genericSig": "<Self : RazorpayAdsSdk.Ad>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Ad",
+            "printedName": "Ad",
+            "usr": "s:14RazorpayAdsSdk2AdP",
+            "mangledName": "$s14RazorpayAdsSdk2AdP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MediationUnifiedAd",
         "printedName": "MediationUnifiedAd",
         "children": [
@@ -9534,6 +13513,33 @@
             "declKind": "Func",
             "usr": "s:14RazorpayAdsSdk19MediationAdDelegateP08onNativeE6Loaded06nativeE0yAA0dhE0_p_tF",
             "mangledName": "$s14RazorpayAdsSdk19MediationAdDelegateP08onNativeE6Loaded06nativeE0yAA0dhE0_p_tF",
+            "moduleName": "RazorpayAdsSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationAdDelegate>",
+            "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationAdDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNativeRewardAdLoaded",
+            "printedName": "onNativeRewardAdLoaded(nativeRewardAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationNativeRewardAd",
+                "printedName": "any RazorpayAdsSdk.MediationNativeRewardAd",
+                "usr": "s:14RazorpayAdsSdk23MediationNativeRewardAdP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14RazorpayAdsSdk19MediationAdDelegateP014onNativeRewardE6Loaded06nativeiE0yAA0dhiE0_p_tF",
+            "mangledName": "$s14RazorpayAdsSdk19MediationAdDelegateP014onNativeRewardE6Loaded06nativeiE0yAA0dhiE0_p_tF",
             "moduleName": "RazorpayAdsSdk",
             "genericSig": "<τ_0_0 where τ_0_0 : RazorpayAdsSdk.MediationAdDelegate>",
             "sugared_genericSig": "<Self where Self : RazorpayAdsSdk.MediationAdDelegate>",
@@ -13223,238 +17229,245 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1228,
+      "offset": 1282,
       "length": 9,
       "value": "\"ad_type\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1316,
       "length": 11,
       "value": "\"adunit_id\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1358,
       "length": 18,
       "value": "\"ad_render_config\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1346,
+      "offset": 1400,
       "length": 10,
       "value": "\"dest_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1400,
+      "offset": 1454,
       "length": 12,
       "value": "\"main_image\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1472,
+      "offset": 1526,
       "length": 10,
       "value": "\"vast_tag\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1528,
+      "offset": 1582,
       "length": 14,
       "value": "\"dsp_branding\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1593,
+      "offset": 1647,
       "length": 17,
       "value": "\"open_url_in_app\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 1639,
+      "offset": 1693,
       "length": 15,
       "value": "\"custom_native\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 3680,
+      "offset": 1734,
+      "length": 12,
+      "value": "\"has_reward\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3965,
       "length": 15,
       "value": "\"custom_fields\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5148,
+      "offset": 5433,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5165,
+      "offset": 5450,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 5430,
+      "offset": 5715,
       "length": 5,
       "value": "\"imp\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "Array",
-      "offset": 5784,
+      "offset": 6069,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "Array",
-      "offset": 5811,
+      "offset": 6096,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 6147,
+      "offset": 6432,
       "length": 11,
       "value": "\"ui_config\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 6182,
+      "offset": 6467,
       "length": 10,
       "value": "\"end_card\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 6714,
+      "offset": 6999,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 6740,
+      "offset": 7025,
       "length": 10,
       "value": "\"portrait\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7192,
+      "offset": 7477,
       "length": 19,
       "value": "\"show_close_button\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7244,
+      "offset": 7529,
       "length": 20,
       "value": "\"close_button_delay\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7294,
+      "offset": 7579,
       "length": 16,
       "value": "\"show_countdown\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 7342,
+      "offset": 7627,
       "length": 18,
       "value": "\"force_fullscreen\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7920,
+      "offset": 8205,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7950,
+      "offset": 8235,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 7975,
+      "offset": 8260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8006,
+      "offset": 8291,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8508,
+      "offset": 8793,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 8827,
+      "offset": 9154,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 8908,
+      "offset": 9242,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 8927,
+      "offset": 9261,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 8950,
+      "offset": 9284,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 8973,
+      "offset": 9307,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/network\/RazorpayModel.swift",
       "kind": "StringLiteral",
-      "offset": 8995,
+      "offset": 9329,
       "length": 2,
       "value": "\"\""
     },
@@ -13545,7 +17558,14 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayAdapter.swift",
       "kind": "Dictionary",
-      "offset": 675,
+      "offset": 665,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 768,
       "length": 3,
       "value": "[]"
     },
@@ -13858,6 +17878,48 @@
       "value": "\"USD\""
     },
     {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5812,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5855,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeAd.swift",
+      "kind": "Array",
+      "offset": 6096,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeAd.swift",
+      "kind": "Array",
+      "offset": 6149,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 6232,
+      "length": 5,
+      "value": "\"USD\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6278,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeCustomAd.swift",
       "kind": "Array",
       "offset": 282,
@@ -14105,175 +18167,182 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5622,
+      "offset": 5629,
+      "length": 15,
+      "value": "\"native_reward\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5662,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5690,
+      "offset": 5730,
       "length": 13,
       "value": "\"INIT_CONFIG\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5727,
+      "offset": 5767,
       "length": 14,
       "value": "\"INIT_REQUEST\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5766,
+      "offset": 5806,
       "length": 15,
       "value": "\"INIT_RESPONSE\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5803,
+      "offset": 5843,
       "length": 12,
       "value": "\"AD_REQUEST\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5845,
+      "offset": 5885,
       "length": 21,
       "value": "\"AD_REQUEST_BACKFILL\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5892,
+      "offset": 5932,
       "length": 16,
       "value": "\"AD_OPPORTUNITY\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5937,
+      "offset": 5977,
       "length": 20,
       "value": "\"AD_REQUEST_ADAPTER\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 5980,
+      "offset": 6020,
       "length": 13,
       "value": "\"AD_RESPONSE\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6015,
+      "offset": 6055,
       "length": 12,
       "value": "\"AD_CLICKED\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6052,
+      "offset": 6092,
       "length": 15,
       "value": "\"AD_IMPRESSION\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6088,
+      "offset": 6128,
       "length": 11,
       "value": "\"AD_CACHED\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6122,
+      "offset": 6162,
       "length": 14,
       "value": "\"AD_CACHE_HIT\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6160,
+      "offset": 6200,
       "length": 15,
       "value": "\"AD_CACHE_MISS\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6197,
+      "offset": 6237,
       "length": 11,
       "value": "\"EXCEPTION\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6264,
+      "offset": 6304,
       "length": 7,
       "value": "\"admob\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6287,
+      "offset": 6327,
       "length": 5,
       "value": "\"gam\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6313,
+      "offset": 6353,
       "length": 10,
       "value": "\"razorpay\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6350,
+      "offset": 6390,
       "length": 17,
       "value": "\"razorpay_direct\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6387,
+      "offset": 6427,
       "length": 9,
       "value": "\"liftoff\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6412,
+      "offset": 6452,
       "length": 5,
       "value": "\"jio\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6436,
+      "offset": 6476,
       "length": 8,
       "value": "\"inmobi\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6462,
+      "offset": 6502,
       "length": 7,
       "value": "\"unity\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "StringLiteral",
-      "offset": 6502,
+      "offset": 6542,
       "length": 22,
       "value": "\"headerBiddingAdapter\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/remoteConfig\/RemoteConfigModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 9842,
+      "offset": 9882,
       "length": 2,
       "value": "59"
     },
@@ -14336,91 +18405,91 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 3585,
+      "offset": 6860,
       "length": 10,
       "value": "\"headline\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 3618,
+      "offset": 6893,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 3646,
+      "offset": 6921,
       "length": 5,
       "value": "\"cta\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 3674,
+      "offset": 6949,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/view\/MediationNativeAdView.swift",
       "kind": "StringLiteral",
-      "offset": 3708,
+      "offset": 6983,
       "length": 11,
       "value": "\"mediaView\""
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4852,
+      "offset": 5132,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4920,
+      "offset": 5200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 4949,
+      "offset": 5229,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4988,
+      "offset": 5268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5665,
+      "offset": 5945,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5735,
+      "offset": 6015,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "FloatLiteral",
-      "offset": 5765,
+      "offset": 6045,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Adapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5805,
+      "offset": 6085,
       "length": 5,
       "value": "false"
     },
@@ -14453,6 +18522,41 @@
       "value": "\"adsCache\""
     },
     {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/MediationAd.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 25,
+      "value": "\"redemption_instructions\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/MediationAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1420,
+      "length": 12,
+      "value": "\"expires_at\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/MediationAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1462,
+      "length": 16,
+      "value": "\"redemption_url\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/MediationAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1872,
+      "length": 14,
+      "value": "\"display_name\""
+    },
+    {
+      "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/MediationAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1910,
+      "length": 10,
+      "value": "\"logo_url\""
+    },
+    {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/Razorpay.swift",
       "kind": "Dictionary",
       "offset": 2637,
@@ -14483,21 +18587,21 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26112,
+      "offset": 26258,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26300,
+      "offset": 26446,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/RazorpayMediationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 66556,
+      "offset": 69614,
       "length": 5,
       "value": "false"
     },
