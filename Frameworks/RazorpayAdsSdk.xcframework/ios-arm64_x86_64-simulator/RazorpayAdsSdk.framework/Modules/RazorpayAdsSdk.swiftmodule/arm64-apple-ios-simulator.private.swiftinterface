@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name RazorpayAdsSdk
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import AppTrackingTransparency
 import Compression
@@ -301,6 +301,9 @@ public protocol MediationNativeAd : RazorpayAdsSdk.Ad {
   #if compiler(>=5.3) && $NonescapableTypes
   var mediaView: UIKit.UIView? { get }
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var aspectRatio: CoreFoundation.CGFloat? { get }
+  #endif
   var overrideImpressionHandling: Swift.Bool { get set }
   var overrideClickHandling: Swift.Bool { get set }
   #if compiler(>=5.3) && $NonescapableTypes
@@ -346,6 +349,9 @@ public protocol MediationNativeRewardAd : RazorpayAdsSdk.Ad {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   var dspBranding: RazorpayAdsSdk.DSPBranding? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  var aspectRatio: CoreFoundation.CGFloat? { get }
   #endif
   var overrideImpressionHandling: Swift.Bool { get set }
   var overrideClickHandling: Swift.Bool { get set }
@@ -422,11 +428,15 @@ public typealias RazorpayInitializationCompletionHandler = ([RazorpayAdsSdk.Adap
 }
 public struct AdRequestConfiguration {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : [Swift.String]] = [:], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil)
+  public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : [Swift.String]] = [:], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil, collapsiblePlacement: Swift.String? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : Swift.String], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil)
+  public init(placement: Swift.String, viewController: UIKit.UIViewController? = nil, publisherProvidedId: Swift.String? = nil, customTargetingValues: [Swift.String : Swift.String], adaptiveAdWidth: Swift.Int? = nil, adaptiveAdHeight: Swift.Int? = nil, adaptiveType: Swift.String? = nil, yieldGroupBidPriceRange: Swift.String? = nil, collapsiblePlacement: Swift.String? = nil)
   #endif
+}
+public enum CollapsiblePlacement {
+  public static let top: Swift.String
+  public static let bottom: Swift.String
 }
 public protocol MediationAdDelegate : AnyObject {
   func onBannerAdLoaded(bannerAd: any RazorpayAdsSdk.MediationBannerAd)
