@@ -4,7 +4,7 @@
 
 ## Requirements
 
-- iOS 13.0+
+- iOS 15.0+
 - Xcode with Swift Package Manager or CocoaPods support
 
 ## Installation
@@ -26,7 +26,7 @@ Add this to your `Podfile`:
 ```ruby
 pod "RazorpayAdsSdk",
     :git => "https://github.com/razorpayads/ios-sdk.git",
-    :tag => "1.0.0"
+    :tag => "1.7.9"
 ```
 
 Then run:
@@ -82,5 +82,8 @@ extension ViewController: MediationAdDelegate {
 }
 ```
 
-The repo release version published from this repo is `1.0.0`.
-The bundled binary currently reports internal framework version `1.4.0`.
+This package and its bundled XCFramework are version `1.7.9`.
+
+Both installation methods resolve Google Mobile Ads SDK `13.2.0` automatically. Continue using `import RazorpayAdsSdk`; the SPM dependency bridge does not change the SDK API.
+
+The default RAPI endpoint is `https://adreq.razorpayads.com/v1/rapi`. Remote configuration can override it.
