@@ -19712,35 +19712,35 @@
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Clients\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeCustomAd.swift",
       "kind": "Array",
-      "offset": 306,
+      "offset": 734,
       "length": 129,
       "value": "[\"Headline\", \"Body\", \"Calltoaction\", \"Image\", \"dest_url\", \"clickactionURL\"]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Clients\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeCustomAd.swift",
       "kind": "Array",
-      "offset": 494,
+      "offset": 922,
       "length": 38,
       "value": "[\"image\", \"mainimage\", \"mainimageurl\"]"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Clients\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeCustomAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1113,
+      "offset": 1541,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Clients\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeCustomAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1216,
+      "offset": 1644,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adster\/Desktop\/Github\/Clients\/RazorpayAds\/Razorpay-iOS-SDK\/RazorpayAdsSdk\/RazorpayAdsSdk\/RazorpaySDK\/mediation\/razorpay\/RazorpayNativeCustomAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1336,
+      "offset": 1764,
       "length": 4,
       "value": "true"
     },
